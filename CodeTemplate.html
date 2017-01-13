@@ -1,0 +1,48 @@
+	<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Point Size</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+  </head>
+
+  <body onload="main()" onresize="resize_canvas()">
+    
+    <div id="canvas">
+        <canvas id="webgl" width="400" height="400">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <div id = "cameraposition">
+        </div>
+    </div>
+    
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/big.js"></script>
+    <!--<script src="lib/cuon-matrix-quat.js"></script>-->
+    <script src="lib/cuon-matrix.js"></script>
+
+    <script src="components/Namespace.js"></script>
+    <script src="components/Camera.js"></script>
+    <script src="components/Particle.js"></script>
+    <script src="components/Vector3.js"></script>
+    <script src="components/Matrix4.js"></script>
+    <script src="components/Quaternion.js"></script>
+    <script src="components/Transform.js"></script>
+    <script src="CodeTemplate.js"></script>
+    
+    <script src="assets/js/grid.js"></script>
+    <script src="assets/js/vertexInfo.js"></script>
+    
+    <script src="assets/shaders/fragment-shaders.js"></script>
+    <script src="assets/shaders/vertex-shaders.js"></script>
+    
+    <script src="assets/js/animation.js"></script>
+
+    <script src="assets/js/ui/ui.js"></script>
+    <script src="assets/js/ui/KeyboardEventHandlers.js"></script>
+    
+  </body>
+</html>
